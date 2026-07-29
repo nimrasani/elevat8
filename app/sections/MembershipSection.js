@@ -59,8 +59,8 @@ export default function MembershipSection() {
                   href="#"
                   className="inline-flex justify-center items-center gap-3 cursor-pointer w-full
               uppercase rounded-sm text-btn font-semibold tracking-widest text-white
-              bg-transparent hover:bg-[#c2e53a] hover:text-[#0f0f0f] focus:text-[#0f0f0f] focus:bg-[#c2e53a]
-              border border-[#B8B8B880] h-[44px] 
+              bg-transparent hover:bg-[#D7FF3F] hover:text-[#0f0f0f] focus:text-[#0f0f0f] focus:bg-[#D7FF3F]
+              border border-[#B8B8B880] hover:border-[#D7FF3F] focus:border-[#D7FF3F] h-[44px] 
               py-4 px-10 mt-6 ease-in-out duration-300 transition-all"
                 >
                   Get Started
@@ -103,8 +103,8 @@ export default function MembershipSection() {
                   href="#"
                   className="inline-flex justify-center items-center gap-3 cursor-pointer w-full
               uppercase rounded-sm text-btn font-semibold tracking-widest text-white
-              bg-transparent hover:bg-[#c2e53a] hover:text-[#0f0f0f] focus:text-[#0f0f0f] focus:bg-[#c2e53a]
-              border border-[#B8B8B880] h-[44px] 
+              bg-transparent hover:bg-[#D7FF3F] hover:text-[#0f0f0f] focus:text-[#0f0f0f] focus:bg-[#D7FF3F]
+              border border-[#B8B8B880] hover:border-[#D7FF3F] focus:border-[#D7FF3F] h-[44px] 
               py-4 px-10 ease-in-out duration-300 transition-all"
                 >
                   Join Performance
@@ -145,17 +145,13 @@ export default function MembershipSection() {
 
                 <a
                   href="#"
-                  //   className="cursor-pointer w-full mx-auto border border-[#B8B8B8] text-white font-semibold
-                  // rounded-lg hover:bg-[#c2e53a] hover:text-[#0f0f0f] hover:border-[#c2e53a]
-                  // focus:bg-[#c2e53a] focus:text-[#0f0f0f] focus:border-[#c2e53a]
-                  // transition-all ease-in-out duration-300 py-2 px-4 mb-3"
                   className="inline-flex justify-center items-center gap-3 cursor-pointer w-full
               uppercase rounded-sm text-btn font-semibold tracking-widest text-white
-              bg-transparent hover:bg-[#c2e53a] hover:text-[#0f0f0f] focus:text-[#0f0f0f] focus:bg-[#c2e53a]
-              border border-[#B8B8B880] h-[44px] 
+              bg-transparent hover:bg-[#D7FF3F] hover:text-[#0f0f0f] focus:text-[#0f0f0f] focus:bg-[#D7FF3F]
+              border border-[#B8B8B880] hover:border-[#D7FF3F] focus:border-[#D7FF3F] h-[44px] 
               py-4 px-10 ease-in-out duration-300 transition-all"
                 >
-                  Join Elite
+                  Apply For Elite
                 </a>
               </div>
             </div>
