@@ -21,11 +21,11 @@ export const metadata = {
     title: "Train At A Higher Level | ELEVAT8",
     description:
       "Premium strength & conditioning, elite coaching and a members-only training environment. Not your average gym — ELEVAT8.",
-    url: "https://www.elevat8.com/",
+    url: "https://elevat8.vercel.app",
     siteName: "ELEVAT8",
     images: [
       {
-        url: "https://www.elevat8.com/OG.png",
+        url: "https://elevat8.vercel.app/OG.png",
         width: 1200,
         height: 630,
         alt: "ELEVAT8 — Premium Strength & Performance Club",
@@ -39,7 +39,7 @@ export const metadata = {
     title: "Train At A Higher Level | ELEVAT8",
     description:
       "Premium facilities, elite coaching and a training environment for people who expect more from themselves.",
-    images: ["https://www.elevat8.com/OG.png"],
+    images: ["https://elevat8.vercel.app/OG.png"],
   },
   keywords: [
     "premium gym",
