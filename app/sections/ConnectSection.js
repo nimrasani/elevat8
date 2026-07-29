@@ -10,9 +10,9 @@ export default function ConnectSection() {
                 READY TO <br />
                 ELEVAT8?
               </h4>
-              <p className="text-sm md:text-base text-[#1e1e1e] max-w-lg lg:mb-7">
+              {/* <p className="text-sm md:text-base text-[#1e1e1e] max-w-lg lg:mb-7">
                 Stay updated with the latest news and offers.
-              </p>
+              </p> */}
 
               <a
                 href="#contact"

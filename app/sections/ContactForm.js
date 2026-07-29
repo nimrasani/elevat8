@@ -32,7 +32,8 @@ export default function ContactForm() {
     const portalId = "25647202";
     const formId = "d1ffb0a0-82f0-453b-b041-ed3dfefaa27e";
 
-    const url = `https://api.hsforms.com/submissions/v3/integration/submit/${portalId}/${formId}`;
+    // const url = `https://api.hsforms.com/submissions/v3/integration/submit/${portalId}/${formId}`;
+    const url = `#`;
 
     const submissionData = {
       fields: [
@@ -163,8 +164,8 @@ export default function ContactForm() {
             disabled={isLoading}
             className="inline-flex justify-center items-center gap-3 cursor-pointer w-full
               uppercase rounded-sm text-btn font-semibold tracking-widest text-white disabled:bg-[#FFFFFF1A] 
-              bg-transparent hover:bg-[#c2e53a] hover:text-[#0f0f0f] focus:text-[#0f0f0f] focus:bg-[#c2e53a]
-              border border-[#B8B8B880] h-[44px] 
+              bg-transparent hover:bg-[#d7ff3f] hover:text-[#0f0f0f] focus:text-[#0f0f0f] focus:bg-[#d7ff3f]
+              border border-[#B8B8B880] hover:border-[#d7ff3f] focus:border-[#d7ff3f] h-[44px] 
               px-4 mt-5 ease-in-out duration-300 transition-all"
           >
             {isLoading ? (
