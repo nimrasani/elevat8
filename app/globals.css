@@ -1,26 +1,140 @@
 @import "tailwindcss";
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
+} */
+
+/* :root {
+  --bg-primary: #0f0f0f;
+  --bg-secondary: #1e1e1e;
+  --bg-card: #181818; //no given in guideline
+  --accent-lime: #d7ff3f;
+  --text-primary: #ffffff;
+  --text-secondary: #b8b8b8; //for supporting text
+  --border-color: rgba(255, 255, 255, 0.08); //no given in guideline
+  --font-headline: "Bebas Neue", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --transition-speed: 0.3s; //no given in guideline
+} */
+
+:root {
+  --background: #0f0f0f;
+  --foreground: #ffffff;
+  --accent-lime: #d7ff3f;
+  --btn-text-size: 13px;
+  --text-tracking: 0.28em;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-inter: var(--font-inter);
+  --font-bebas-neue: var(--font-bebas-neue);
+  --text-btn: var(--btn-text-size);
+  --tracking-widest-lg: var(--text-tracking);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #0f0f0f;
     --foreground: #ededed;
   }
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: -webkit-fill-available;
+  min-height: 100vh;
+  margin: 0;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+input {
+  height: 46px;
+}
+
+input,
+textarea {
+  background-color: #ffffff14;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #9ca3af;
+  outline: none;
+  padding: 13px 12px;
+  font-size: 12px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #9ca3af;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(100%);
+  font-size: 20px;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+  border: 1px solid #ffffff1a;
+}
+
+.hero-eyebrow-line {
+  display: inline-block;
+  width: 40px;
+  height: 1px;
+  background: var(--accent-lime);
+}
+
+/* no using */
+.service-card:hover .service-img {
+  transform: scale(1.04);
+}
+
+.service-img-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(15, 15, 15, 0.9) 20%,
+    transparent 100%
+  );
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(15, 15, 15, 0.85) 0%,
+    rgba(15, 15, 15, 0.4) 50%,
+    rgba(15, 15, 15, 0.7) 100%
+  );
+  z-index: 1;
+}
+
+.hero-overlay-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background: linear-gradient(to top, var(--color-bg) 0%, transparent 100%);
+  z-index: 2;
 }
