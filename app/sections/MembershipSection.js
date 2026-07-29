@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 export default function MembershipSection() {
   return (
@@ -23,9 +22,11 @@ export default function MembershipSection() {
           </p>
 
           {/* Cards - 3 - ESSENTIAL, PERFORMANCE, ELITE  */}
-
-          <div className="flex flex-col md:flex-row gap-3 w-full py-6">
-            <div className="bg-[#0f0f0f] w-full">
+          <div
+            className="flex flex-col sm:flex-row gap-6 py-6 
+            sm:overflow-x-auto lg:overflow-visible sm:snap-x sm:snap-mandatory scrollbar-hide"
+          >
+            <div className="bg-[#0f0f0f] flex flex-col w-full sm:min-w-[360px] sm:max-w-[360px] lg:min-w-0 lg:max-w-none lg:flex-1 sm:snap-start">
               <div className="relative z-0">
                 <span className="block">
                   <Image
@@ -38,11 +39,11 @@ export default function MembershipSection() {
                 </span>
                 <div className="service-img-overlay"></div>
               </div>
-              <div className="relative p-7 -mt-30 z-10">
-                <h5 className="text-white font-bebas-neue text-4xl text-center mb-3">
+              <div className="relative p-7 -mt-28 md:-mt-30 z-10 flex flex-col flex-1">
+                <h5 className="text-white font-bebas-neue text-3xl md:text-4xl text-center mb-3">
                   ESSENTIAL
                 </h5>
-                <h6 className="text-[#D7FF3F] text-3xl font-semibold leading-5 text-center mb-5">
+                <h6 className="text-[#D7FF3F] text-2xl md:text-3xl font-semibold leading-4 md:leading-5 text-center mb-5">
                   AED 699
                   <br /> <small className="text-xs">/Month</small>
                 </h6>
@@ -61,14 +62,14 @@ export default function MembershipSection() {
               uppercase rounded-sm text-btn font-semibold tracking-widest text-white
               bg-transparent hover:bg-[#D7FF3F] hover:text-[#0f0f0f] focus:text-[#0f0f0f] focus:bg-[#D7FF3F]
               border border-[#B8B8B880] hover:border-[#D7FF3F] focus:border-[#D7FF3F] h-[44px] 
-              py-4 px-10 mt-6 ease-in-out duration-300 transition-all"
+              py-4 px-10 mt-auto ease-in-out duration-300 transition-all"
                 >
                   Get Started
                 </a>
               </div>
             </div>
 
-            <div className="bg-[#0f0f0f] w-full">
+            <div className="bg-[#0f0f0f] flex flex-col w-full sm:min-w-[360px] sm:max-w-[360px] lg:min-w-0 lg:max-w-none lg:flex-1 sm:snap-start">
               <div className="relative z-0">
                 <span className="block">
                   <Image
@@ -81,11 +82,11 @@ export default function MembershipSection() {
                 </span>
                 <div className="service-img-overlay"></div>
               </div>
-              <div className="relative p-7 -mt-30 z-10">
-                <h5 className="text-white font-bebas-neue text-4xl text-center mb-3">
+              <div className="relative p-7 -mt-28 md:-mt-30 z-10 flex flex-col flex-1">
+                <h5 className="text-white font-bebas-neue text-3xl md:text-4xl text-center mb-3">
                   PERFORMANCE
                 </h5>
-                <h6 className="text-[#D7FF3F] text-3xl font-semibold leading-5 text-center mb-5">
+                <h6 className="text-[#D7FF3F] text-2xl md:text-3xl font-semibold leading-4 md:leading-5 text-center mb-5">
                   AED 1,299
                   <br /> <small className="text-xs">/Month</small>
                 </h6>
@@ -105,14 +106,14 @@ export default function MembershipSection() {
               uppercase rounded-sm text-btn font-semibold tracking-widest text-white
               bg-transparent hover:bg-[#D7FF3F] hover:text-[#0f0f0f] focus:text-[#0f0f0f] focus:bg-[#D7FF3F]
               border border-[#B8B8B880] hover:border-[#D7FF3F] focus:border-[#D7FF3F] h-[44px] 
-              py-4 px-10 ease-in-out duration-300 transition-all"
+              py-4 px-10 mt-auto ease-in-out duration-300 transition-all"
                 >
                   Join Performance
                 </a>
               </div>
             </div>
 
-            <div className="bg-[#0f0f0f] w-full">
+            <div className="bg-[#0f0f0f] flex flex-col w-full sm:min-w-[360px] sm:max-w-[360px] lg:min-w-0 lg:max-w-none lg:flex-1 sm:snap-start">
               <div className="relative z-0">
                 <span className="block">
                   <Image
@@ -125,11 +126,11 @@ export default function MembershipSection() {
                 </span>
                 <div className="service-img-overlay"></div>
               </div>
-              <div className="relative p-7 -mt-30 z-10">
-                <h5 className="text-white font-bebas-neue text-4xl text-center mb-3">
+              <div className="relative p-7 -mt-28 md:-mt-30 z-10 flex flex-col flex-1">
+                <h5 className="text-white font-bebas-neue text-3xl md:text-4xl text-center mb-3">
                   ELITE
                 </h5>
-                <h6 className="text-[#D7FF3F] text-3xl font-semibold leading-5 text-center mb-5">
+                <h6 className="text-[#D7FF3F] text-2xl md:text-3xl font-semibold leading-4 md:leading-5 text-center mb-5">
                   AED 2,499
                   <br /> <small className="text-xs">/Month</small>
                 </h6>
@@ -149,7 +150,7 @@ export default function MembershipSection() {
               uppercase rounded-sm text-btn font-semibold tracking-widest text-white
               bg-transparent hover:bg-[#D7FF3F] hover:text-[#0f0f0f] focus:text-[#0f0f0f] focus:bg-[#D7FF3F]
               border border-[#B8B8B880] hover:border-[#D7FF3F] focus:border-[#D7FF3F] h-[44px] 
-              py-4 px-10 ease-in-out duration-300 transition-all"
+              py-4 px-10 mt-auto ease-in-out duration-300 transition-all"
                 >
                   Apply For Elite
                 </a>
