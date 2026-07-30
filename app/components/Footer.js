@@ -1,11 +1,10 @@
 import Image from "next/image";
-import React from "react";
 
 export default function Footer() {
   return (
     <>
       <footer className="bg-[#0f0f0f]">
-        <div className="lg:container lg:max-w-[1248px] m-auto lg:px-0 md:px-6 px-4 py-15 border-t border-[#FFFFFF1F]">
+        <div className="lg:container lg:max-w-[1248px] m-auto lg:px-0 md:px-6 px-4 py-15 ">
           <div className="flex flex-col justify-center items-center">
             <span>
               <Image

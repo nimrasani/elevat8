@@ -17,8 +17,8 @@ export default function Home() {
       <Navbar />
       <HeroSection/>
       <AboutSection/>
-      {/* <FacilitySection/>
-      <CoachingSection/> */}
+      <FacilitySection/>
+      {/* <CoachingSection/> */}
       <TestimonialSection/>
       <SocialSection/>
       <MembershipSection/>

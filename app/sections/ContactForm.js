@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import Form from "next/form";
 
 export default function ContactForm() {
@@ -29,10 +29,6 @@ export default function ContactForm() {
     setStatus("");
     setIsLoading(true);
 
-    const portalId = "25647202";
-    const formId = "d1ffb0a0-82f0-453b-b041-ed3dfefaa27e";
-
-    // const url = `https://api.hsforms.com/submissions/v3/integration/submit/${portalId}/${formId}`;
     const url = `#`;
 
     const submissionData = {
@@ -80,6 +76,10 @@ export default function ContactForm() {
   return (
     <>
       <div className="lg:w-1/2 w-full">
+        <h4 className="text-4xl md:text-5xl lg:text-6xl text-white font-bebas-neue mb-4">
+          APPLY FOR <br />
+          <span className="text-[#D7FF3F]">MEMBERSHIP.</span>
+        </h4>
         <Form onSubmit={handleSubmit} className="flex flex-col gap-3">
           <input
             type="text"
