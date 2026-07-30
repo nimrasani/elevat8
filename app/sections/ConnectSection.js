@@ -9,7 +9,7 @@ export default function ConnectSection() {
                 READY TO <br />
                 ELEVAT8?
               </h4>
-              <p className="text-sm md:text-base text-[#0f0f0fa6] text-center lg:mb-7">
+              <p className="text-sm md:text-base text-[#0f0f0fa6] text-center mb-7">
                 Join an exclusive community of high-performers. <br/>Limited
                 memberships available.
               </p>
