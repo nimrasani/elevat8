@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "./components/Navbar";
 import HeroSection from "./sections/HeroSection";
 import ContactSection from "./sections/ContactSection";
@@ -18,7 +17,7 @@ export default function Home() {
       <HeroSection/>
       <AboutSection/>
       <FacilitySection/>
-      {/* <CoachingSection/> */}
+      <CoachingSection/>
       <TestimonialSection/>
       <SocialSection/>
       <MembershipSection/>
