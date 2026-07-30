@@ -20,7 +20,7 @@ export default function Footer() {
               built around excellence.
             </p>
             <p className="text-sm text-[#ffffff50] ">
-              © 2024 ELEVAT8. All rights reserved.
+              © 2026 ELEVAT8. All rights reserved.
             </p>
           </div>
         </div>
