@@ -1,6 +1,6 @@
 export default function CoachingSection() {
   return (
-    <section className="relative min-h-[450px] md:min-h-[550px] lg:min-h-[750px] bg-[#0F0F0F] overflow-hidden">
+    <section className="relative min-h-[450px] md:min-h-[550px] lg:min-h-[750px] xl:min-h-[950px] bg-[#0F0F0F] overflow-hidden">
       <video
         autoPlay
         loop

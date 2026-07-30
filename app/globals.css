@@ -1,11 +1,6 @@
 @import "tailwindcss";
 
 /* :root {
-  --background: #ffffff;
-  --foreground: #171717;
-} */
-
-/* :root {
   --bg-primary: #0f0f0f;
   --bg-secondary: #1e1e1e;
   --bg-card: #181818; //no given in guideline
@@ -34,13 +29,6 @@
   --text-btn: var(--btn-text-size);
   --tracking-widest-lg: var(--text-tracking);
 }
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0f0f0f;
-    --foreground: #ededed;
-  }
-} */
 
 .scrollbar-hide {
   -ms-overflow-style: none;
@@ -109,11 +97,6 @@ textarea:focus {
   width: 40px;
   height: 1px;
   background: var(--accent-lime);
-}
-
-/* no using */
-.service-card:hover .service-img {
-  transform: scale(1.04);
 }
 
 .service-img-overlay {
