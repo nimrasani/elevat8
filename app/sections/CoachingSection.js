@@ -14,7 +14,6 @@ export default function CoachingSection() {
 
       <div className="absolute inset-0 bg-black/50 pointer-events-none" />
 
-      {/* Content Container */}
       <div className="relative z-10 lg:max-w-[1248px] lg:mx-auto h-full py-14 md:py-20 lg:py-40 lg:px-0 md:px-6 px-4">
         <div className="flex flex-col justify-center h-full">
           <div className="flex items-center gap-3 mb-3">
