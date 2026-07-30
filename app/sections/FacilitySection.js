@@ -20,7 +20,7 @@ export default function FacilitySection() {
             recovery and consistency that serious progress demands.
           </p>
 
-          <div className="flex gap-6 py-6 overflow-x-auto snap-x snap-mandatory scrollbar-hide">
+          <div className="flex gap-6 py-6 overflow-x-scroll snap-x snap-mandatory scrollbar-hide">
             <div className="relative z-0 flex-none w-[85vw] sm:w-[400px] lg:w-[500px] snap-start">
               <span className="block">
                 <Image
