@@ -6,9 +6,12 @@ export default function CoachingSection() {
         loop
         muted
         playsInline
-        poster="/bg-images/coaching-img.png" 
+        preload="metadata"
+        poster="/bg-images/coaching-img.webp"
         className="absolute inset-0 w-full h-full object-cover object-center"
+        aria-hidden="true"
       >
+        <source src="/videos/floor-coaching.webm" type="video/webm" />
         <source src="/videos/floor-coaching.mp4" type="video/mp4" />
       </video>
 
@@ -18,13 +21,16 @@ export default function CoachingSection() {
         <div className="flex flex-col justify-center h-full">
           <div className="flex items-center gap-3 mb-3">
             <span className="hero-eyebrow-line"></span>
+
             <p className="text-[#D7FF3F] text-xs font-inter font-semibold uppercase tracking-widest-lg">
               Coaching
             </p>
           </div>
+
           <h3 className="font-bebas-neue text-4xl md:text-5xl lg:text-6xl mb-4">
             COACHING THAT DRIVES
-            <br /> <span className="text-[#D7FF3F]">RESULTS.</span>
+            <br />
+            <span className="text-[#D7FF3F]">RESULTS.</span>
           </h3>
 
           <p className="text-[#b8b8b8] text-sm lg:text-base max-w-[300px] md:max-w-[450px] lg:max-w-[450px]">
