@@ -5,7 +5,6 @@ export default function AboutSection() {
     <>
       <section className="lg:max-w-[1248px] lg:mx-auto py-14 md:py-20 lg:py-40 lg:px-0 md:px-6 px-4">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
-          {/* IMAGE */}
           <span className="order-2 lg:order-1 block w-full lg:w-[60%]">
             <Image
               src="/images/about-us.webp"
