@@ -29,6 +29,7 @@ export default function FacilitySection() {
                   width={2000}
                   height={500}
                   className="w-full h-full object-cover rounded-lg"
+                  loading="lazy"
                 />
               </span>
 
@@ -53,6 +54,7 @@ export default function FacilitySection() {
                   width={2000}
                   height={200}
                   className="w-full h-full object-cover rounded-lg"
+                  loading="lazy"
                 />
               </span>
 
@@ -77,6 +79,7 @@ export default function FacilitySection() {
                   width={2000}
                   height={200}
                   className="w-full h-full object-cover rounded-lg"
+                  loading="lazy"
                 />
               </span>
 
@@ -101,6 +104,7 @@ export default function FacilitySection() {
                   width={2000}
                   height={200}
                   className="w-full h-full object-cover rounded-lg"
+                  loading="lazy"
                 />
               </span>
 

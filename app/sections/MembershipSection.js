@@ -35,6 +35,7 @@ export default function MembershipSection() {
                     width={400}
                     height={200}
                     className="w-full h-[350px] object-cover"
+                    loading="lazy"
                   />
                 </span>
                 <div className="service-img-overlay"></div>
@@ -78,6 +79,7 @@ export default function MembershipSection() {
                     width={400}
                     height={200}
                     className="w-full h-[350px] object-cover"
+                    loading="lazy"
                   />
                 </span>
                 <div className="service-img-overlay"></div>
@@ -122,6 +124,7 @@ export default function MembershipSection() {
                     width={400}
                     height={200}
                     className="w-full h-[350px] object-cover"
+                    loading="lazy"
                   />
                 </span>
                 <div className="service-img-overlay"></div>
