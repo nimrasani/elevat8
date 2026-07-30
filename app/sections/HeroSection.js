@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function HeroSection() {
   return (
     <section
-      className="relative overflow-hidden bg-[#0F0F0F]
+      className="relative bg-[#0F0F0F]
       pt-[5.2rem] lg:pt-0 lg:min-h-[750px]"
     >
       <Image
