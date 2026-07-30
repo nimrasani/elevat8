@@ -1,10 +1,8 @@
-import React from "react";
-
 export default function TestimonialSection() {
   return (
     <>
       <section>
-        <div className="lg:container lg:max-w-[1248px] m-auto pt-10 md:pt-14 lg:pt-40 lg:px-0 md:px-6 px-4 border-b border-[#ffffff14]">
+        <div className="lg:container lg:max-w-[1248px] m-auto  pt-14 md:pt-20 lg:pt-40 lg:px-0 md:px-6 px-4 border-b border-[#ffffff14]">
           <div className="flex justify-center items-center gap-3 mb-3">
             <span className="hero-eyebrow-line"></span>
             <p className="text-[#D7FF3F] text-xs font-inter font-semibold uppercase tracking-widest-lg">

@@ -1,9 +1,7 @@
-import React from "react";
-
 export default function SocialSection() {
   return (
     <>
-      <section className="lg:max-w-[1248px] lg:mx-auto pt-10 pb-10 md:pb-14 lg:pb-40 lg:px-0 md:px-6 px-4">
+      <section className="lg:max-w-[1248px] lg:mx-auto pt-10 pb-14 md:pb-20 lg:pb-40 lg:px-0 md:px-6 px-4">
         <div className="flex flex-wrap md:flex-nowrap gap-y-8 md:gap-10 items-center justify-center">
           <div className="flex flex-col items-center gap-2 w-1/2 md:w-auto ">
             <p className="text-[#D7FF3F] text-3xl lg:text-4xltext-4xl font-bebas-neue">

@@ -1,6 +1,3 @@
-import Image from "next/image";
-import React from "react";
-
 export default function HeroSection() {
   return (
     <>
@@ -8,7 +5,7 @@ export default function HeroSection() {
         <div className="hero-overlay"></div>
         <div className="hero-overlay-bottom"></div>
 
-        <div className="relative z-10 lg:max-w-[1248px] mx-auto py-10 md:py-14 lg:py-40 lg:px-0 md:px-6 px-4">
+        <div className="relative z-10 lg:max-w-[1248px] mx-auto py-14 md:py-20 lg:py-40 lg:px-0 md:px-6 px-4">
           <div className="flex items-center gap-3 mb-3">
             <span className="hero-eyebrow-line"></span>
             <p className="text-[#D7FF3F] text-xs font-semibold tracking-widest-lg uppercase">

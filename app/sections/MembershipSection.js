@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function MembershipSection() {
   return (
     <>
-      <section className="bg-[#1E1E1E] pt-10 md:pt-14 lg:pt-20 lg:pb-20 lg:px-0 md:px-6 px-4">
+      <section className="bg-[#1E1E1E] pt-14 md:pt-20 lg:py-40 lg:px-0 md:px-6 px-4">
         <div className="lg:max-w-[1248px] m-auto">
           <div className="flex items-center gap-3 mb-3">
             <span className="hero-eyebrow-line"></span>
