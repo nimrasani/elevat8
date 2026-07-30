@@ -18,7 +18,7 @@ export default function Home() {
       <HeroSection/>
       <AboutSection/>
       <FacilitySection/>
-      {/* <CoachingSection/> */}
+      <CoachingSection/>
       <TestimonialSection/>
       <SocialSection/>
       <MembershipSection/>
