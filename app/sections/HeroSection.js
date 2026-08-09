@@ -23,7 +23,7 @@ export default function HeroSection() {
           <span className="hero-eyebrow-line"></span>
 
           <p className="text-[#D7FF3F] text-xs font-semibold tracking-widest-lg uppercase">
-            Premium Fitness · Est. 2024
+            Premium Fitness · Est. 2026
           </p>
         </div>
 
